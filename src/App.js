@@ -8,6 +8,7 @@ import Home from './Pages/Components/Home/Home';
 import Login from './Pages/Components/Login/Login';
 import Regsiter from './Pages/Components/Login/Regsiter';
 import RequireAuth from './Pages/Components/Login/RequireAuth';
+import Footer from './Pages/Components/Shared/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<Regsiter></Regsiter>}></Route>
       </Routes>
+      <Footer></Footer>
       <ToastContainer />
     </div>
   );
