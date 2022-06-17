@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Web Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta sit amet diam nec luctus. Phasellus non mauris id erat ultrices rutrum sed vitae lorem. Fusce venenatis sagittis finibus. Sed nec interdum orci. Sed lobortis volutpat ante, eget eleifend justo tincidunt non. Fusce pellentesque tempor mauris, et pulvinar nunc vehicula a. Vivamus elementum libero vitae consequat consectetur. Vivamus sit amet eros in velit dictum rhoncus sit amet et tellus. Praesent tellus est, imperdiet non pulvinar ut, auctor eu est.",
+        "price": 1000,
+        "img": "https://i.ibb.co/N1qYYPm/web-design.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Web Development",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta sit amet diam nec luctus. Phasellus non mauris id erat ultrices rutrum sed vitae lorem. Fusce venenatis sagittis finibus. Sed nec interdum orci. Sed lobortis volutpat ante, eget eleifend justo tincidunt non. Fusce pellentesque tempor mauris, et pulvinar nunc vehicula a. Vivamus elementum libero vitae consequat consectetur. Vivamus sit amet eros in velit dictum rhoncus sit amet et tellus. Praesent tellus est, imperdiet non pulvinar ut, auctor eu est.",
+        "price": 1500,
+        "img": "https://i.ibb.co/JtYBNQk/web-development.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Digital Marketing",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta sit amet diam nec luctus. Phasellus non mauris id erat ultrices rutrum sed vitae lorem. Fusce venenatis sagittis finibus. Sed nec interdum orci. Sed lobortis volutpat ante, eget eleifend justo tincidunt non. Fusce pellentesque tempor mauris, et pulvinar nunc vehicula a. Vivamus elementum libero vitae consequat consectetur. Vivamus sit amet eros in velit dictum rhoncus sit amet et tellus. Praesent tellus est, imperdiet non pulvinar ut, auctor eu est.",
+        "price": 1000,
+        "img": "https://i.ibb.co/G28xrH8/Digital-Marketing.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Graphics Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta sit amet diam nec luctus. Phasellus non mauris id erat ultrices rutrum sed vitae lorem. Fusce venenatis sagittis finibus. Sed nec interdum orci. Sed lobortis volutpat ante, eget eleifend justo tincidunt non. Fusce pellentesque tempor mauris, et pulvinar nunc vehicula a. Vivamus elementum libero vitae consequat consectetur. Vivamus sit amet eros in velit dictum rhoncus sit amet et tellus. Praesent tellus est, imperdiet non pulvinar ut, auctor eu est.",
+        "price": 700,
+        "img": "https://i.ibb.co/3k31Zzb/graphics-design.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Video Editing",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta sit amet diam nec luctus. Phasellus non mauris id erat ultrices rutrum sed vitae lorem. Fusce venenatis sagittis finibus. Sed nec interdum orci. Sed lobortis volutpat ante, eget eleifend justo tincidunt non. Fusce pellentesque tempor mauris, et pulvinar nunc vehicula a. Vivamus elementum libero vitae consequat consectetur. Vivamus sit amet eros in velit dictum rhoncus sit amet et tellus. Praesent tellus est, imperdiet non pulvinar ut, auctor eu est.",
+        "price": 1000,
+        "img": "https://i.ibb.co/pPpPgwG/video-editing.jpg"
+    }
+]
