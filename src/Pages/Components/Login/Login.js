@@ -34,6 +34,7 @@ const Login = () => {
     }
     const onSubmit = data => {
         signInWithEmailAndPassword(data.email, data.password);
+
     }
     return (
         <div className='flex h-screen justify-center items-center'>

@@ -3,6 +3,7 @@ import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfil
 import { useForm } from 'react-hook-form';
 import auth from '../../../firebase.init';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 const Regsiter = () => {
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -36,6 +37,7 @@ const Regsiter = () => {
         await createUserWithEmailAndPassword(data.email, data.password);
         await updateProfile({ displayName: data.name });
         navigate('/');
+        toast.success('Registration Successfully')
     }
     return (
         <div className='flex h-screen justify-center items-center'>
@@ -63,6 +65,26 @@ const Regsiter = () => {
                                 {errors.name?.type === 'required' && <span className="label-text-alt text-red-500">{errors.name.message}</span>}
                             </label>
                         </div>
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">Phone Number</span>
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Your Name"
+                                className="input input-bordered w-full max-w-xs"
+                                {...register("phone", {
+                                    required: {
+                                        value: true,
+                                        message: 'Phone Number is Required'
+                                    }
+                                })}
+                            />
+                            <label className="label">
+                                {errors.phone?.type === 'required' && <span className="label-text-alt text-red-500">{errors.phone.message}</span>}
+                            </label>
+                        </div>
+
 
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
